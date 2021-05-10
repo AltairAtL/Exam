@@ -1,0 +1,70 @@
+.tourists {
+  background: url("../img/BG\ \(2\).png") no-repeat;
+  // padding-top: 140px;
+
+  h2 {
+    margin-bottom: 60px;
+    font-family: "Aleo", serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 40px;
+
+    text-align: center;
+    text-transform: capitalize;
+    color: #ffffff;
+    margin-top: 140px;
+  }
+  @media (max-width: 991.98px) {
+    h2 {
+      margin-top: 50px;
+    }
+  }
+  .wrapper {
+    margin: 0;
+    max-width: 100%;
+    background: #333333;
+  }
+  @media (max-width: 991.98px) {
+    .wrapper {
+      margin-top: -5px;
+      margin-bottom: 70px;
+    }
+  }
+  h4 {
+    margin: 48px 0 0 60px;
+    font-family: "Josefin Sans", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 28px;
+    text-transform: uppercase;
+    color: #ffffff;
+  }
+
+  p {
+    margin-left: 60px;
+    margin-bottom: 35px;
+    font-family: "Josefin Sans", sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 28px;
+    letter-spacing: 0.1em;
+    color: #ffffff;
+  }
+  img {
+    // height: 280px;
+    max-width: 100%;
+    margin-bottom: 180px;
+  }
+  @media (max-width: 991.98px) {
+    img {
+      width: 720px;
+      margin-bottom: 0;
+    }
+  }
+  .icon-quote-left {
+    color: #5373fd;
+  }
+}
